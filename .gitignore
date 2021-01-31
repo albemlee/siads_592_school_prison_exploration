@@ -1,0 +1,11 @@
+
+.DS_Store
+.ipynb_checkpoints/helper-checkpoint.py
+.ipynb_checkpoints/incarcerationtrends-checkpoint.ipynb
+.ipynb_checkpoints/MAP_GENERATOR_REPORT-checkpoint.ipynb
+.ipynb_checkpoints/police_vs_education_spending-checkpoint.ipynb
+__pycache__/helper.cpython-38.pyc
+data/crdc_enrollment/.ipynb_checkpoints/disability_2011_enrollment-checkpoint.csv
+data/crdc_enrollment/.ipynb_checkpoints/lep_2011_enrollment-checkpoint.csv
+data/crdc_enrollment/.ipynb_checkpoints/race_2011_enrollment-checkpoint.csv
+data/slgeppus0017/.ipynb_checkpoints/readme-checkpoint.txt
