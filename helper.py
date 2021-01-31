@@ -334,7 +334,7 @@ class map_generator():
         title, 
         filename
     ):
-        df = FIPS_Code_merge(df)
+        df = self.FIPS_Code_merge(df)
         df['year'] = df['year'].astype(int)
         df = df[df['year']==year]
 
