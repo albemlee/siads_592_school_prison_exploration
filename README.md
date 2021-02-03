@@ -41,8 +41,8 @@ This notebook contains a visual exploration of each state's education spending
 ### 08_map_generator
 This notebook contains the code used to generate maps
 
-### 09_correlations
-This notebook contains correlations analysis between incarceration rates and education data.
-
-### 10_pca
+### 09_pca
 This notebook contains PCA analysis which was used to determine most important variables in the Common Core of Data Finance dataset.
+
+### 10_correlations
+This notebook contains correlations analysis between incarceration rates and education data.
