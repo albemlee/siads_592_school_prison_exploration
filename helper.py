@@ -216,7 +216,7 @@ class map_generator():
             color_mapper=color_mapper, 
             label_standoff=8,
             width = 500, 
-            height = 20,
+            height = 10,
             border_line_color='black',
             location = (0,0), 
             orientation ='horizontal'
@@ -287,7 +287,7 @@ class map_generator():
         palette = brewer[colors][8]
         palette = palette[::-1]
         color_mapper = LinearColorMapper(palette = palette, low = low, high = high,  nan_color = '#d9d9d9')
-        color_bar = ColorBar(color_mapper=color_mapper, label_standoff=8,width = 500, height = 20,
+        color_bar = ColorBar(color_mapper=color_mapper, label_standoff=8,width = 500, height = 10,
         border_line_color='black',location = (0,0), orientation ='horizontal')
 
         #Set the size and title of the graph
@@ -356,12 +356,11 @@ class map_generator():
              ("Year","@year"),
              (variable_column, "@"+variable_column)])
 
-        #Makes it so there are no gird lines
+        #Makes it so there are no grid lines
         p.xgrid.grid_line_color = None
         p.ygrid.grid_line_color = None
+        p.title.text_font_size = '40pt'
         p.patches('xs','ys', source = geosource,fill_color = {'field'     :variable_column, 'transform' : color_mapper},
              line_color = 'black', line_width = 0.25, fill_alpha = 1)
         p.add_layout(color_bar, 'below')
-        filename = filename
-        output_notebook()
         return export_png(p, filename=filename)

@@ -15,13 +15,6 @@ The State and Local Government Expenditures on Police Protection in the U.S. (SL
 ### State-by-State Spending on Kids ([Source](https://datacatalog.urban.org/dataset/state-state-spending-kids-dataset)), `data/statebystatespending`
 The State-by-State Spending on Kids dataset provides the amount of public spending on children from 1997-2016.  It was created by the Urban Institute and compiled data from the Census Bureau’s Survey of State and Local Government Finances and other federal and non-census sources.  The key variables that will be used in our analysis include the expenditure data on elementary and secondary education, subsidies, special services, and the Head Start program.
 
-# Exploration Steps
-
-## PCA
-- Used to identify most relevant columns/variables/features (ones with most variety)
-- Reduce dimensions, and view weights of each new feature
-- Highest weights are most relevant
-
 # Notebooks
 
 ### 01_gather_education_data

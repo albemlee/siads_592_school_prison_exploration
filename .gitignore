@@ -28,3 +28,23 @@ data/.ipynb_checkpoints/dropout_fiscal2010-checkpoint.txt
 .ipynb_checkpoints/09_correlations-checkpoint.ipynb
 .ipynb_checkpoints/10_pca-checkpoint.ipynb
 .ipynb_checkpoints/README-checkpoint.md
+._.DS_Store
+._04_incarceration_trends.ipynb
+._05_police_vs_education_spending.ipynb
+._06_state_local_police_expenditures.ipynb
+._07_state_spending.ipynb
+._08_map_generator.ipynb
+._10_pca.ipynb
+._helper.py
+._README.md
+._requirements.txt
+.ipynb_checkpoints/._04_incarceration_trends-checkpoint.ipynb
+.ipynb_checkpoints/._06_state_local_police_expenditures-checkpoint.ipynb
+.ipynb_checkpoints/._05_police_vs_education_spending-checkpoint.ipynb
+.ipynb_checkpoints/._07_state_spending-checkpoint.ipynb
+.ipynb_checkpoints/._08_map_generator-checkpoint.ipynb
+.ipynb_checkpoints/._10_pca-checkpoint.ipynb
+.ipynb_checkpoints/MAP GENERATOR REPORT-checkpoint.ipynb
+.ipynb_checkpoints/Untitled-checkpoint.ipynb
+data/statebystatespending/._State-by-State_Spending_on_Kids_0.xlsx
+data/statebystatespending/._State-by-State_Spending_on_Kids_Data_Dictionary_File_0.xlsx
