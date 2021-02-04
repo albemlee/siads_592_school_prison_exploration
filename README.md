@@ -1,4 +1,5 @@
 # Education Justice Exploration
+Final report located in Project Report.pdf.
 
 # Data
 The data used to run the notebooks in this repository are located in `data/`.
